@@ -1,0 +1,14 @@
+RewriteCond %{REQUEST_URI} ^/system.*
+RewriteRule ^(.*)$ index.php?/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?/$1 [L]
+
+
+
+RewriteEngine on
+
+ RewriteRule ^index\.php/(.+)$ /$1 [L,R]
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule !index\.php /index.php%{REQUEST_URI} [L,END]
+

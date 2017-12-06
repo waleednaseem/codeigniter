@@ -1,0 +1,265 @@
+
+@charset "utf-8";
+
+body{opacity:0.1;
+    transition: opacity 2s;
+    
+}
+
+    
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.blancpain{
+	position:relative;
+	background-attachment:fixed;
+	background-image:url(images/blackchain/1200px-Blancpain_MG_2605.jpg);
+	z-index:1;
+	 height: 400px;
+	 width:100%;
+	 background-repeat:inherit;
+	 transition: .9s ease;
+	 opacity: 1;
+	 background-color: transparent;
+	 
+}
+.container:hover .head1
+{
+	opacity: 0.7;
+}
+
+.head1:hover .text
+{
+	opacity: 1;
+}
+
+
+.head1{
+	transition: .9s ease;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  background-color: black;
+}
+.text{
+  color: red;
+  font-size: 36px;
+  opacity: 0;
+  background-color: transparent;
+}
+
+.chopard{
+	position:relative;
+	background-attachment:fixed;
+	background-image:url(images/chopard/Chopard-LUC-1963-chronometer.jpg);
+	z-index:1;
+	 height: 400px;
+	 width:100%;
+	 background-repeat:inherit;
+	 transition: .9s ease;
+	 opacity: 1;
+	 
+}
+
+.omega{
+	position:relative;
+	background-attachment:fixed;
+	background-image:url(images/omega/gp_ld_triaxial_clup_ok.jpg);
+	z-index:1;
+	 height: 400px;
+	 width:100%;
+	 background-repeat:inherit;
+	 transition: .9s ease;
+	 opacity: 1;
+	 
+}
+
+.rolex{
+	position:relative;
+	background-attachment:fixed;
+	background-image:url(images/rolex/Rolex-Submariner-116610LN.jpeg);
+	z-index:1;
+	 height: 400px;
+	 width:100%;
+	 background-repeat:inherit;
+	 transition: .9s ease;
+	 opacity: 1;
+	 
+}
+.rado{
+	position:relative;
+	background-attachment:fixed;
+	background-image:url(images/rado/rado-og.png);
+	z-index:1;
+	 height: 400px;
+	 width:100%;
+	 background-repeat:inherit;
+	 transition: .9s ease;
+	 opacity: 1;
+	 
+}
+.Jaeger-LeCoultre{
+	position:relative;
+	background-attachment:fixed;
+	background-image:url(images/Jaeger-LeCoultre/WEMPE-Jaeger-LeCoultre-Stage.jpg);
+
+	z-index:1;
+	 height: 400px;
+	 width:100%;
+	 background-repeat:inherit;
+	 transition: .9s ease;
+	 opacity: 1;
+} 
+	.Taghueuer{
+		position:relative;
+	    background-attachment:fixed;
+	    background-image:url(images/Taghueuer/MIKROGRIDER_SEDUC.jpg);
+
+	z-index:1;
+	 height: 400px;
+	 width:100%;
+	 background-repeat:inherit;
+	 transition: .9s ease;
+	 opacity: 1;
+}
+.Zenith{
+	position:relative;
+	background-attachment:fixed;
+	background-image:url(images/Zenith/28865.jpg);
+
+	z-index:1;
+	 height: 400px;
+	 width:100%;
+	 background-repeat:inherit;
+	 transition: .9s ease;
+	 opacity: 1;
+}
+.vacheron-constantin{
+	position:relative;
+	background-attachment:fixed;
+	background-image:url(images/vacheron-constantin/Unknown-3.jpeg);
+
+	z-index:1;
+	 height: 400px;
+	 width:100%;
+	 background-repeat:inherit;
+	 transition: .9s ease;
+	 opacity: 1;
+}
+
+
+
+
+@keyframes fadein{
+   from{opacity:0;}
+   to{opacity:1;}
+}
+.someElement{
+   animation: fadein 9s;
+}
+.para123{
+font:"Comic Sans MS", cursive;
+font-size:18px;
+color:#F00;
+margin:10px;
+padding:10px;	
+}
+#contact{
+	background:no-repeat;
+	position:relative;
+	animation-name: fadein 4s;
+	width:100%;
+	height:500px;
+}
+
+
+*{
+	
+	padding:0;
+	margin:0;
+	
+}
+.full{
+	
+	padding:30px;
+	margin:30px;
+	
+	
+}
+
+
+.fullwidth{
+max-width:100%;	
+	
+}
+.middle{
+min-height:500px ;	
+background-color:#FF0;
+}
+#image{
+	z-index:-1;
+	position:relative;
+	width:100%;
+	height:600px;
+	background-repeat:no-repeat;
+	
+	
+}
+#content{
+	position:relative;
+	background-color:#FFF;
+	height:800px;
+	z-index:1;
+	width:100%;
+	height:90%
+}
+ 
+
+header{
+	
+	
+}
+.navbar1 {
+	width:100%;
+	height:60px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:gray;
+	color:white;
+	font-size:30px;
+	opacity: 1;
+	
+	
+}
+ul li{
+text-decoration:none;
+padding:10px;	
+color:#FFF;
+display:inline-block;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.fixedimage{
+	position:relative;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	z-index:1;
+	
+	height:300px;
+	width:100%;	
+		
+}
+
+.divfooter{
+background-color:black;
+width:100%;
+height:300px;	
+color: white;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#999;
+	font-size:20px;
+	text-decoration:none;
+
+}
